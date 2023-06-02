@@ -10,7 +10,7 @@ This project is an excellent demonstration of a well-structured HTML and CSS fil
 
 ## Screenshot
 
-![Horiseon website screenshot](./Develop/assets/images/01-html-css-git-homework-demo.png)
+![Horiseon website screenshot](./Develop/assets/images/01-html-css-git-homework-demo.jpg)
 
 ## Link to the Deployed Application
 
