@@ -14,7 +14,7 @@ This project is an excellent demonstration of a well-structured HTML and CSS fil
 
 ## Link to the Deployed Application
 
-Link to Deployed Application: 
+Link to Deployed Application: https://kojootchere.github.io/Horiseon-AccessiRefactor/
 
 ## Contact Information
 
