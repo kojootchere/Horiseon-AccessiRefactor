@@ -4,7 +4,7 @@
 
 Horiseon is a marketing agency that offers a variety of services to businesses. Our services include search engine optimization, online reputation management, and social media marketing. These services are designed to increase your visibility, control your online presence, and drive more customers to your business through online platforms.
 
-In this project, we revamped the Horiseon website to improve accessibility, which is crucial for businesses in this digital age. We achieved this by implementing semantic HTML elements, ensuring all images had alt attributes, and improving the overall structure and design of the CSS file.
+In this project, we revamped the Horiseon website to improve accessibility, which is crucial for businesses in this digital age. We achieved this by implementing semantic HTML elements and improving the overall structure and design of the CSS file.
 
 This project is an excellent demonstration of a well-structured HTML and CSS file. Both beginners and experienced developers can gain valuable insights from this project on how to structure HTML elements semantically and organize CSS selectors and properties effectively.
 
