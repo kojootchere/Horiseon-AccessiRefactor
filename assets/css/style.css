@@ -1,0 +1,151 @@
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div.hero {
+    height: 800px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.content-sections {
+    display: inline-block;
+    width: 75%;
+}
+
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 250px;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+    margin-right: 25px;
+    float: left;
+}
+
+#online-reputation-management img {
+    float: right;
+    max-height: 200px;
+    margin-right: 75px;
+}
+
+.benefits {
+    display: 3;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 120px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .content-sections {
+        display: inline-block;
+        width: 75%;
+    }
+
+    .content {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 200px;
+        width: 90%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+
+    .benefits {
+        display: 3;
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: right;
+        width: 15%;
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #2589bd;
+
+    }
+}
