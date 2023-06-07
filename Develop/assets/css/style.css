@@ -1,18 +1,8 @@
-/* General styling applied to all HTML elements */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-/* Styling for the <body> of the webpage. Background color is set to a light gray */
 body {
     background-color: #d9dcd6;
 }
 
-/* Header styling. Flex is used to align the items horizontally */
-/* <div class="header"> in the HTML */
-.header {
+header {
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -23,142 +13,139 @@ body {
     color: #ffffff;
 }
 
-/* Header title styling. The size of the h1 header in the navigation bar is set */
-/* <h1>Hori<span class="seo">seo</span>n</h1> in the HTML */
-.header h1 {
+header h1 {
     font-size: 48px;
 }
 
-/* The color of the 'seo' span in the h1 title is set to light gray */
-/* <span class="seo">seo</span> in the HTML */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Navigation list styling. The bullets are removed from the list and are displayed in a line */
-/* <ul>...</ul> in the HTML under <div class="header"> */
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-/* Navigation list item styling. Each list item is displayed inline and margin is added to the left */
-/* <li>...</li> under <ul> in the HTML */
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* All links on the webpage are styled white with no underline */
-/* <a href="...">...</a> in the HTML */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* All paragraph text is set to 16px */
-/* <p>...</p> in the HTML */
-p {
-    font-size: 16px;
-}
-
-/* The hero banner styling. The background image is set and centered */
-/* <div class="hero"></div> in the HTML */
-.hero {
+div.hero {
     height: 800px;
-    margin-bottom: 25px;
-    background: url("../images/digital-marketing-meeting.jpg") center / cover no-repeat;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-/* The main content area of the webpage. It is displayed inline and takes up 75% of the page */
-/* <div class="content">...</div> in the HTML */
-.content {
+main {
+    margin-top: 10px;
+}
+
+.content-sections {
     display: inline-block;
     width: 75%;
 }
 
-/* Each content section styling. The background color, font, padding, margin and dimensions are set */
-/* <div class="content-section ...">...</div> in the HTML */
-.content-section {
+
+.content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content {
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    height: 250px;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-/* Images within content sections are styled. Max height is set and floated left */
-/* <img src="..."> within <div class="content-section ..."> in the HTML */
-.content-section img {
+.content img {
     max-height: 200px;
     margin-right: 25px;
     float: left;
 }
 
-/* Images within the online-reputation-management section are floated to the right */
-/* <img src="..."> within <div class="content-section online-reputation-management"> in the HTML */
-.online-reputation-management img {
-    max-height: 200px;
-    margin-right: 0px;
+#online-reputation-management img {
     float: right;
+    max-height: 200px;
+    margin-right: 75px;
 }
 
-/* Headers within content sections are styled */
-/* <h2>...</h2> within <div class="content-section ..."> in the HTML */
-.content-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Styling for the benefits section of the webpage */
-/* <div class="benefits">...</div> in the HTML */
 .benefits {
-    display: block;
+    display: 3;
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-/* Each benefit item styling */
-/* <div class="benefit ...">...</div> within <div class="benefits"> in the HTML */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Headers within each benefit item are centered */
-/* <h3>...</h3> within <div class="benefit ..."> in the HTML */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Images within each benefit item are centered and max width is set */
-/* <img src="..."> within <div class="benefit ..."> in the HTML */
 .benefit img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 120px;
 }
 
-/* Footer styling */
-/* <div class="footer">...</div> in the HTML */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Footer heading 2 styling */
-/* <h2>...</h2> within <div class="footer"> in the HTML */
-.footer h2 {
+footer h2 {
     font-size: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .content-sections {
+        display: inline-block;
+        width: 75%;
+    }
+
+    .content {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 200px;
+        width: 90%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+
+    .benefits {
+        display: 3;
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: right;
+        width: 15%;
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #2589bd;
+
+    }
 }
